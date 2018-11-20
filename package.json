@@ -1,0 +1,35 @@
+{
+  "name": "dns-over-https",
+  "version": "0.0.1",
+  "description": "RFC-8484 Compliant DNS-over-HTTPS API",
+  "main": "index.js",
+  "author": "Sagi Kedmi <git@sagi.io> (https://sagi.io)",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node example/index.js"
+  },
+  "dependencies": {
+    "base64url": "^3.0.0",
+    "dns-packet": "^5.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sagi/dns-over-https-node.git"
+  },
+  "keywords": [
+    "dns-over-https",
+    "dns over https",
+    "dns",
+    "https",
+    "dnshttps",
+    "doh",
+    "security",
+    "privacy"
+  ]
+}
