@@ -1,23 +1,23 @@
 # DNS-over-HTTPS API for Node.js
 
-[`@sagi/dns-over-https`](https://www.npmjs.com/package/@sagi/dns-over-https) is an RFC-8484 compliant Node.js [DNS over HTTPS](https://en.wikipedia.org/wiki/DNS_over_HTTPS) API.
+[`@sagi.io/dns-over-https`](https://www.npmjs.com/package/@sagi.io/dns-over-https) is an RFC-8484 compliant Node.js [DNS over HTTPS](https://en.wikipedia.org/wiki/DNS_over_HTTPS) API.
 
 [![CircleCI](https://circleci.com/gh/sagi/dns-over-https-node.svg?style=svg)](https://circleci.com/gh/sagi/dns-over-https-node)
 [![Coverage Status](https://coveralls.io/repos/github/sagi/dns-over-https-node/badge.svg?branch=master)](https://coveralls.io/github/sagi/dns-over-https-node?branch=master)
-[![MIT License](https://img.shields.io/npm/l/@sagi/dns-over-https.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![version](https://img.shields.io/npm/v/@sagi/dns-over-https.svg?style=flat-square)](http://npm.im/@sagi/dns-over-https)
+[![MIT License](https://img.shields.io/npm/l/@sagi.io/dns-over-https.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![version](https://img.shields.io/npm/v/@sagi.io/dns-over-https.svg?style=flat-square)](http://npm.im/@sagi.io/dns-over-https)
 
 ## Installation
 
 ~~~
-$ npm install --save @sagi/dns-over-https
+$ npm install --save @sagi.io/dns-over-https
 ~~~
 
 ## API
 
 We import as follows:
 ~~~js
-const doh = require('@sagi/dns-over-https')
+const doh = require('@sagi.io/dns-over-https')
 ~~~
 
 #### doh.query(...)
@@ -29,7 +29,7 @@ doh.query = ({
   hostname = 'cloudflare-dns.com',
   path = '/dns-query',
   port = 443,
-  userAgent = '@sagi/dns-over-https',
+  userAgent = '@sagi.io/dns-over-https',
   type = 'A',
   klass = 'IN',
   useHttps = true,
