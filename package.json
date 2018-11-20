@@ -5,7 +5,6 @@
   "main": "index.js",
   "author": "Sagi Kedmi <git@sagi.io> (https://sagi.io)",
   "license": "MIT",
-  "private": false,
   "scripts": {
     "start": "node example/index.js",
     "prettier:check": "prettier --list-different index.js",
