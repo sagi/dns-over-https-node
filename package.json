@@ -7,29 +7,26 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node example/index.js"
+    "start": "node example/index.js",
+    "prettier:check": "prettier --list-different index.js",
+    "eslint": "eslint index.js",
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "dependencies": {
     "base64url": "^3.0.0",
     "dns-packet": "^5.0.4"
   },
   "devDependencies": {
-    "eslint": "^5.8.0",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.9.0",
     "jest": "^23.6.0",
+    "jest-junit": "^5.2.0",
     "prettier": "^1.14.3"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/sagi/dns-over-https-node.git"
   },
-  "keywords": [
-    "dns-over-https",
-    "dns over https",
-    "dns",
-    "https",
-    "dnshttps",
-    "doh",
-    "security",
-    "privacy"
-  ]
+  "keywords": ["dns-over-https", "dns over https", "dns", "https", "dnshttps", "doh", "security", "privacy"]
 }

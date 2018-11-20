@@ -97,7 +97,7 @@ Results in:
 
 ```
 
-More usage examples can be found in [`example`](https://).
+More usage examples can be found in [`example`](https://github.com/sagi/dns-over-https-node/blob/master/example/index.js).
 
 ## License
 MIT

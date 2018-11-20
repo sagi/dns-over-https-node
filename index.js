@@ -39,7 +39,7 @@ const getOptions = ({
     'User-Agent': userAgent,
     ...(isPost && {
       'content-type': 'application/dns-message',
-      'content-length': Buffer.byteLength(dnsWireformat),
+      'content-length': dnsWireformat.length,
     }),
   };
   return { hostname, headers, method, path: dohPath, port };
