@@ -1,5 +1,5 @@
 {
-  "name": "dns-over-https",
+  "name": "@sagi/dns-over-https",
   "version": "0.0.1",
   "description": "RFC-8484 Compliant DNS-over-HTTPS API",
   "main": "index.js",
