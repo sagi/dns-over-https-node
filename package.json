@@ -1,6 +1,6 @@
 {
   "name": "@sagi.io/dns-over-https",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "RFC-8484 Compliant DNS-over-HTTPS API",
   "main": "index.js",
   "author": "Sagi Kedmi <git@sagi.io> (https://sagi.io)",

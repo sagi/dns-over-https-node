@@ -38,7 +38,7 @@ doh.query = ({
 
 A `name` is mandatory. You can set your own `method`, `hostname`, `path`, `port`, `userAgent`, `type`, `klass` and `useHttps`.
 
-A `Promise` is that resolves to a `DNS`  response object is returned.
+A `Promise` that resolves to a `DNS`  response object is returned.
 
 
 For instance,
