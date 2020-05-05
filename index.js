@@ -75,6 +75,7 @@ const query = ({
 
         switch (statusCode) {
           case 200:
+            console.log(data.toString());
             resolve(dnsPacket.decode(data));
             break;
           case 400:
