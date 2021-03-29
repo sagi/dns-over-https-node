@@ -69,8 +69,8 @@ const query = ({
     });
     const httpAgent = useHttps ? require('https') : require('http');
 
-    const req = httpAgent.request(options, res =>
-      res.on('data', data => {
+    const req = httpAgent.request(options, (res) =>
+      res.on('data', (data) => {
         const { statusCode } = res;
 
         switch (statusCode) {
@@ -95,7 +95,7 @@ const query = ({
       const dnsWireformat = getDnsWireformat({ name, type, klass });
       req.write(dnsWireformat);
     }
-    req.on('error', e => reject(e));
+    req.on('error', (e) => reject(e));
     req.end();
   });
 
