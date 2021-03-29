@@ -44,7 +44,7 @@ A `Promise` that resolves to a `DNS`  response object is returned.
 For instance,
 
 ```js
-const doh = require('@sagi/dns-over-https')
+const doh = require('@sagi.io/dns-over-https')
 (async () => {
   const dnsResponse  = await doh.query({name: 'sagi.io'})
 })()
